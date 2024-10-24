@@ -7,6 +7,6 @@ public class Tests
     {
         var amount = Class1.Do(15, [1, 2, 5, 10, 20, 50]);
         
-        Assert.AreEqual(new [] { 0, 0, 1, 1, 0, 0 }, amount);
+        Assert.That(amount, Is.EqualTo(new [] { 0, 0, 1, 1, 0, 0 }));
     }
 }
