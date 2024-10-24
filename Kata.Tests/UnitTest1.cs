@@ -18,7 +18,7 @@ public class Tests
     }
 
     [Test]
-    public void Test3()
+    public void BigChange()
     {
         var amount = ChangeCalculator.GiveMeMoney(314159265, [1, 2, 5, 10, 20, 50, 100, 200]);
         
@@ -29,7 +29,7 @@ public class Tests
     }
     
     [Test]
-    public void Test4()
+    public void OutOfOrderCoins()
     {
         var amount = ChangeCalculator.GiveMeMoney(45, [5, 1, 2, 10, 20, 50]);
         
